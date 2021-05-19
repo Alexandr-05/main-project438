@@ -1,0 +1,99 @@
+/* ОБЩИЕ НАЧАЛО */
+body {
+  background-color: bisque;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+/* ОБЩИЕ КОНЕЦ */
+
+/* HEADER НАЧАЛО */
+
+header {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 66px;
+  z-index: 2;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.menu a {
+  color: rgb(221, 208, 208);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 80%;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: opacity 0.3s;
+
+}
+
+.menu a:hover {
+  color: rgb(221, 163, 163);
+}
+
+
+.item {
+  margin: auto;
+}
+
+/* HEADER КОНЕЦ */
+
+/* СЕКЦИЯ BANER НАЧАЛО */
+.baner {
+  position: relative;
+
+  align-items: center;
+  min-width: 90vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* СЕКЦИЯ BANER КОНЕЦ */
+
+
+/* СЕКЦИЯ SERVISES НАЧАЛО */
+/* СЕКЦИЯ SERVISES КОНЕЦ */
+
+/* СЕКЦИЯ SLIDER НАЧАЛО */
+/* СЕКЦИЯ SLIDER КОНЕЦ */
+
+/* FOOTER НАЧАЛО */
+/* FOOTER КОНЕЦ */
+
+/* MEDYA НАЧАЛО */
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+  max-width: 1190px;
+}
+
+/* MEDYA НАЧАЛО */
